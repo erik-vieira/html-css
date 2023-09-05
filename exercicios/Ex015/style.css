@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&family=Roboto:ital,wght@1,300&display=swap');
+
+
+
+
+body {
+    background-color: lightgoldenrodyellow;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    color:maroon;
+    background-color: goldenrod;
+    text-align: center;
+    font: italic, bold, 16px, 'Orbitron';
+}
+
+h2 {
+    color: darkred;
+}
+
+p {
+    text-align: justify;
+}

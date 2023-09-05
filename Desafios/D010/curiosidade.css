@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Handjet:wght@200&family=Orbitron:wght@900&family=Roboto:ital,wght@1,300&family=Rubik+Wet+Paint&display=swap');
+
+@font-face {
+    font-family:droid;
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+body{
+    background-color: #a1edbb;
+}
+
+.titulo{
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    font-family:'Bebas Neue', sans-serif;
+}
+header{
+    background-color: #6dc863;
+    margin-top: -30px;
+    margin-left: -7px;
+    margin-right: -7px;
+    padding: 10px;
+    
+    
+}
+header>p{
+    color: white;
+    text-align: center;
+    margin: 0px;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header>nav{
+    display: inline-block;
+}
+header>nav>a{
+    color: white;
+    text-decoration:none;
+    margin-right: 30px;
+    font-weight: bolder;
+    font-size: 1.5em;
+    
+}
+header>nav>:hover{
+    text-decoration: underline;
+    color: black;
+    
+}
+
+main{
+    background-color: white;
+    margin: 0px 220px;
+    padding:0.03px 10px;
+    
+    
+}
+
+.fonte_sub_titulo{
+    font-family: 'droid';
+    background-image:radial-gradient(#6dc863,#6dc463, white);
+    padding:5px;
+    
+}
+.fonte_titulo{
+    font-family: 'droid';
+    font-size: 2em;
+    
+}
+
+main>section>p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+main>section>p>a{
+    text-decoration: none;
+    color: #56e187;
+    font-weight: bolder;
+    
+}
+footer{
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    text-decoration: underline;
+    background-color: #56e187;
+    padding: 0.1px;
+    font-size: 1em;
+}
+
+.p_padrao{
+    text-align: justify;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    
+}
+aside{
+    background-color:#a1edbb;
+    border-radius: 10px;
+    padding: 10px 10px;
+    
+}
+aside>h2{
+    border-radius: 10px;
+    background-color:#56e187;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside>div>p>a{
+    color:#00c344;
+    text-decoration:none;
+    font-weight: bolder;
+}
+
+
+.lista{
+    color: black;
+    right: 0px;
+    display: inline-block;
+    margin-right: 250px;
+    margin-left: 10px;
+}
+
+aside>div>ul>:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+}
