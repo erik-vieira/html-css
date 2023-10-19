@@ -12,6 +12,7 @@
         table{
             width: 300px;
             border-collapse: collapse;
+            position: relative;
         }
 
         caption{
@@ -24,10 +25,21 @@
         }
 
         thead, tfoot{
-            background-color: silver;
+            background-color: orangered;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: 0;
+            background-color: orangered;
+            
         }
          td.num{
             text-align: right;
+         }
+
+         tbody > tr:nth-child(2n){
+            background-color: silver;
          }
        
     </style>
@@ -100,5 +112,6 @@
             </tr>
         </tfoot>
     </table>
+    
 </body>
 </html>
