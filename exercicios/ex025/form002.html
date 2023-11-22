@@ -8,15 +8,18 @@
 <body>
     <h1>Teste de formulário</h1>
 
-    <form action="cadastro.php" method="get">
+    <form action="cadastro.php" method="POST">
         <p>
-            <label for="isus">Usúario</label>
-            <input type="text" name="usuario" id="isus">
+            <label for="isus">Usúario:</label>
+            <input type="text" name="usuario" id="isus" required minlength="5" size="30" placeholder="nome do usúario" autocomplete="username">
         </p>
         <p>
-            <label for="isen">Senha</label>
-            <input type="password" name="senha" id="isen">
-
+            <label for="isen">Senha:</label>
+            <input type="password" name="senha" id="isen" required minlength="8" size="30" autocomplete="current-password">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
         </p>
     </form>
 
